@@ -8,6 +8,7 @@ export function useAuth() {
 
 export function AuthProvider({ children }) {
   const [currentUser, setCurrentUser] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   function signup(email, password) {
     return new Promise((resolve, reject) => {
@@ -73,6 +74,7 @@ export function AuthProvider({ children }) {
 
   const value = {
     currentUser,
+    loading,
     login,
     signup,
     logout
