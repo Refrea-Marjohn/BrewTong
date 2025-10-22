@@ -10,63 +10,63 @@ const Gallery = () => {
       title: 'Fresh Coffee Beans',
       description: 'Premium coffee beans from around the world',
       category: 'coffee',
-      image: `${process.env.PUBLIC_URL}/images/gallery/coffee-beans.jpg`
+      image: '/images/gallery/coffee-beans.jpg'
     },
     {
       id: 2,
       title: 'Barista at Work',
       description: 'Our skilled barista crafting the perfect cup of coffee',
       category: 'barista',
-      image: `${process.env.PUBLIC_URL}/images/gallery/barista-working.jpg`
+      image: '/images/gallery/barista-working.jpg'
     },
     {
       id: 3,
       title: 'Cozy Interior',
       description: 'Our warm and welcoming coffee shop atmosphere',
       category: 'interior',
-      image: `${process.env.PUBLIC_URL}/images/gallery/interior.jpg`
+      image: '/images/gallery/interior.jpg'
     },
     {
       id: 4,
       title: 'Latte Art',
       description: 'Beautiful latte art created by our talented baristas',
       category: 'art',
-      image: `${process.env.PUBLIC_URL}/images/gallery/latte-art.jpg`
+      image: '/images/gallery/latte-art.jpg'
     },
     {
       id: 5,
       title: 'Fresh Pastries',
       description: 'Delicious pastries baked fresh daily',
       category: 'pastries',
-      image: `${process.env.PUBLIC_URL}/images/gallery/pastries.jpg`
+      image: '/images/gallery/pastries.jpg'
     },
     {
       id: 6,
       title: 'Coffee Equipment',
       description: 'Professional-grade coffee brewing equipment',
       category: 'equipment',
-      image: `${process.env.PUBLIC_URL}/images/gallery/equipment.jpg`
+      image: '/images/gallery/equipment.jpg'
     },
     {
       id: 7,
       title: 'Outdoor Seating',
       description: 'Enjoy your coffee in our beautiful outdoor seating',
       category: 'outdoor',
-      image: `${process.env.PUBLIC_URL}/images/gallery/outdoor-seating.jpg`
+      image: '/images/gallery/outdoor-seating.jpg'
     },
     {
       id: 8,
       title: 'Coffee Roasting',
       description: 'We roast our beans in-house for the freshest taste',
       category: 'roasting',
-      image: `${process.env.PUBLIC_URL}/images/gallery/roasting.jpg`
+      image: '/images/gallery/roasting.jpg'
     },
     {
       id: 9,
       title: 'Happy Customers',
       description: 'Our customers enjoying their coffee experience',
       category: 'customers',
-      image: `${process.env.PUBLIC_URL}/images/gallery/happy-customers.jpg`
+      image: '/images/gallery/happy-customers.jpg'
     }
   ];
 

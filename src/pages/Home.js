@@ -27,7 +27,7 @@ const Home = () => {
       <section 
         className="hero-section text-center"
         style={{
-          backgroundImage: `linear-gradient(135deg, rgba(139, 69, 19, 0.8) 0%, rgba(210, 105, 30, 0.8) 100%), url('${process.env.PUBLIC_URL}/images/hero/coffee-shop-hero.jpg')`,
+          backgroundImage: `linear-gradient(135deg, rgba(139, 69, 19, 0.8) 0%, rgba(210, 105, 30, 0.8) 100%), url('/images/hero/coffee-shop-hero.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
