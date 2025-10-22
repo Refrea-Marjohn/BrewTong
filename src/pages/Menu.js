@@ -10,29 +10,29 @@ const Menu = () => {
 
   const menuItems = {
     coffee: [
-      { name: 'Espresso', price: '$3.50', description: 'Rich, full-bodied shot of pure coffee', image: '/images/coffee/espresso.jpg' },
-      { name: 'Americano', price: '$4.00', description: 'Espresso with hot water for a smooth taste', image: '/images/coffee/americano.jpg' },
-      { name: 'Cappuccino', price: '$4.50', description: 'Espresso with steamed milk and foam', image: '/images/coffee/cappuccino.jpg' },
-      { name: 'Latte', price: '$5.00', description: 'Espresso with steamed milk and light foam', image: '/images/coffee/latte.jpg' },
-      { name: 'Mocha', price: '$5.50', description: 'Espresso with chocolate and steamed milk', image: '/images/coffee/mocha.jpg' },
-      { name: 'Cold Brew', price: '$4.25', description: 'Smooth, cold-brewed coffee served over ice', image: '/images/coffee/coldbrew.jpg' }
+      { name: 'Espresso', price: '$3.50', description: 'Rich, full-bodied shot of pure coffee', image: `${process.env.PUBLIC_URL}/images/coffee/espresso.jpg` },
+      { name: 'Americano', price: '$4.00', description: 'Espresso with hot water for a smooth taste', image: `${process.env.PUBLIC_URL}/images/coffee/americano.jpg` },
+      { name: 'Cappuccino', price: '$4.50', description: 'Espresso with steamed milk and foam', image: `${process.env.PUBLIC_URL}/images/coffee/cappuccino.jpg` },
+      { name: 'Latte', price: '$5.00', description: 'Espresso with steamed milk and light foam', image: `${process.env.PUBLIC_URL}/images/coffee/latte.jpg` },
+      { name: 'Mocha', price: '$5.50', description: 'Espresso with chocolate and steamed milk', image: `${process.env.PUBLIC_URL}/images/coffee/mocha.jpg` },
+      { name: 'Cold Brew', price: '$4.25', description: 'Smooth, cold-brewed coffee served over ice', image: `${process.env.PUBLIC_URL}/images/coffee/coldbrew.jpg` }
     ],
     tea: [
-      { name: 'Green Tea', price: '$3.00', description: 'Fresh, aromatic green tea leaves', image: '/images/coffee/greentea.jpg' },
-      { name: 'Black Tea', price: '$3.00', description: 'Classic English breakfast tea', image: '/images/coffee/blacktea.jpg' },
-      { name: 'Chai Latte', price: '$4.50', description: 'Spiced tea with steamed milk', image: '/images/coffee/chailatte.jpg' },
-      { name: 'Herbal Tea', price: '$3.25', description: 'Selection of caffeine-free herbal blends', image: '/images/coffee/herbaltea.jpg' }
+      { name: 'Green Tea', price: '$3.00', description: 'Fresh, aromatic green tea leaves', image: `${process.env.PUBLIC_URL}/images/coffee/greentea.jpg` },
+      { name: 'Black Tea', price: '$3.00', description: 'Classic English breakfast tea', image: `${process.env.PUBLIC_URL}/images/coffee/blacktea.jpg` },
+      { name: 'Chai Latte', price: '$4.50', description: 'Spiced tea with steamed milk', image: `${process.env.PUBLIC_URL}/images/coffee/chailatte.jpg` },
+      { name: 'Herbal Tea', price: '$3.25', description: 'Selection of caffeine-free herbal blends', image: `${process.env.PUBLIC_URL}/images/coffee/herbaltea.jpg` }
     ],
     pastries: [
-      { name: 'Croissant', price: '$3.50', description: 'Buttery, flaky French pastry', image: '/images/coffee/croissant.jpg' },
-      { name: 'Muffin', price: '$3.25', description: 'Fresh baked muffin of the day', image: '/images/coffee/muffin.jpg' },
-      { name: 'Danish', price: '$4.00', description: 'Sweet pastry with fruit filling', image: '/images/coffee/danish.jpg' },
-      { name: 'Bagel', price: '$2.75', description: 'Fresh bagel with cream cheese', image: '/images/coffee/bagel.jpg' }
+      { name: 'Croissant', price: '$3.50', description: 'Buttery, flaky French pastry', image: `${process.env.PUBLIC_URL}/images/coffee/croissant.jpg` },
+      { name: 'Muffin', price: '$3.25', description: 'Fresh baked muffin of the day', image: `${process.env.PUBLIC_URL}/images/coffee/muffin.jpg` },
+      { name: 'Danish', price: '$4.00', description: 'Sweet pastry with fruit filling', image: `${process.env.PUBLIC_URL}/images/coffee/danish.jpg` },
+      { name: 'Bagel', price: '$2.75', description: 'Fresh bagel with cream cheese', image: `${process.env.PUBLIC_URL}/images/coffee/bagel.jpg` }
     ],
     specials: [
-      { name: 'Coffee Flight', price: '$12.00', description: 'Taste three different coffee varieties', image: '/images/coffee/coffeeflight.jpg' },
-      { name: 'Affogato', price: '$6.00', description: 'Espresso poured over vanilla gelato', image: '/images/coffee/affogato.jpg' },
-      { name: 'Iced Matcha Latte', price: '$5.25', description: 'Refreshing matcha with milk and ice', image: '/images/coffee/matchalatte.jpg' }
+      { name: 'Coffee Flight', price: '$12.00', description: 'Taste three different coffee varieties', image: `${process.env.PUBLIC_URL}/images/coffee/coffeeflight.jpg` },
+      { name: 'Affogato', price: '$6.00', description: 'Espresso poured over vanilla gelato', image: `${process.env.PUBLIC_URL}/images/coffee/affogato.jpg` },
+      { name: 'Iced Matcha Latte', price: '$5.25', description: 'Refreshing matcha with milk and ice', image: `${process.env.PUBLIC_URL}/images/coffee/matchalatte.jpg` }
     ]
   };
 

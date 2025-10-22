@@ -9,12 +9,12 @@ const MenuCategory = () => {
 
   const menuItems = {
     coffee: [
-      { name: 'Espresso', price: '$3.50', description: 'Rich, full-bodied shot of pure coffee', details: 'Made with our premium Arabica beans, roasted to perfection.', image: '/images/coffee/espresso.jpg' },
-      { name: 'Americano', price: '$4.00', description: 'Espresso with hot water for a smooth taste', details: 'Perfect balance of strength and smoothness.', image: '/images/coffee/americano.jpg' },
-      { name: 'Cappuccino', price: '$4.50', description: 'Espresso with steamed milk and foam', details: 'Classic Italian coffee with perfect foam art.', image: '/images/coffee/cappuccino.jpg' },
-      { name: 'Latte', price: '$5.00', description: 'Espresso with steamed milk and light foam', details: 'Creamy and smooth with beautiful latte art.', image: '/images/coffee/latte.jpg' },
-      { name: 'Mocha', price: '$5.50', description: 'Espresso with chocolate and steamed milk', details: 'Rich chocolate flavor with premium espresso.', image: '/images/coffee/mocha.jpg' },
-      { name: 'Cold Brew', price: '$4.25', description: 'Smooth, cold-brewed coffee served over ice', details: 'Slow-steeped for 12 hours for maximum smoothness.', image: '/images/coffee/coldbrew.jpg' }
+      { name: 'Espresso', price: '$3.50', description: 'Rich, full-bodied shot of pure coffee', details: 'Made with our premium Arabica beans, roasted to perfection.', image: `${process.env.PUBLIC_URL}/images/coffee/espresso.jpg` },
+      { name: 'Americano', price: '$4.00', description: 'Espresso with hot water for a smooth taste', details: 'Perfect balance of strength and smoothness.', image: `${process.env.PUBLIC_URL}/images/coffee/americano.jpg` },
+      { name: 'Cappuccino', price: '$4.50', description: 'Espresso with steamed milk and foam', details: 'Classic Italian coffee with perfect foam art.', image: `${process.env.PUBLIC_URL}/images/coffee/cappuccino.jpg` },
+      { name: 'Latte', price: '$5.00', description: 'Espresso with steamed milk and light foam', details: 'Creamy and smooth with beautiful latte art.', image: `${process.env.PUBLIC_URL}/images/coffee/latte.jpg` },
+      { name: 'Mocha', price: '$5.50', description: 'Espresso with chocolate and steamed milk', details: 'Rich chocolate flavor with premium espresso.', image: `${process.env.PUBLIC_URL}/images/coffee/mocha.jpg` },
+      { name: 'Cold Brew', price: '$4.25', description: 'Smooth, cold-brewed coffee served over ice', details: 'Slow-steeped for 12 hours for maximum smoothness.', image: `${process.env.PUBLIC_URL}/images/coffee/coldbrew.jpg` }
     ],
     tea: [
       { name: 'Green Tea', price: '$3.00', description: 'Fresh, aromatic green tea leaves', details: 'High-quality Japanese Sencha green tea.', image: '/images/coffee/greentea.jpg' },
